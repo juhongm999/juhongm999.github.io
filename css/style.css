@@ -252,7 +252,6 @@ footer { width: 270px; float: left; position: fixed; bottom: 50px; -webkit-font-
 }
 
 .cont-right {
-	width: 20%;
 	height: 100%;
 	float: right;
 }
