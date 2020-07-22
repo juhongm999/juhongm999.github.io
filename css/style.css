@@ -184,7 +184,7 @@ th { color: #444; }
 
 img { max-width: 100%; }
 
-header { width: 270px; float: left; position: fixed; -webkit-font-smoothing: subpixel-antialiased; }
+header { width: 230px; float: left; position: fixed; -webkit-font-smoothing: subpixel-antialiased; }
 
 header ul { list-style: none; height: 40px;  background: #f4f4f4; border-radius: 3px;  width: 270px; }
 
@@ -202,7 +202,7 @@ header ul li + li + li { border-right: none; width: 89px; }
 
 header ul a strong { font-size: 14px; display: block; color: #222; }
 
-section { width: 800px; float: right; padding-bottom: 50px; }
+section { width: 850px; float: right; padding-bottom: 50px; }
 
 small { font-size: 11px; }
 
