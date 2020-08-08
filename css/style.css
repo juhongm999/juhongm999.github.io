@@ -156,7 +156,7 @@ a.code { color: #1D8A4D; text-decoration: none; font-size:11px}
 
 a.ppl { color: #727272; text-decoration: none; }
 
-a:hover { color: #069; font-weight: bold; }
+a:hover { color: #069; text-decoration: underline; }
 
 a.code:hover, a.code:focus { color: #135B33; font-weight: bold; }
 
