@@ -1,12 +1,12 @@
-# GigaGAN Project page
+# MoReVQA Project page
 
-This repository contains additonal results and website source files for [GigaGAN Project](https://mingukkang.github.io/GigaGAN/).
+This repository contains additonal results and website for [MoReVQA](https://juhongm999.github.io/morevqa).
 
 ```bib
-@inproceedings{kang2023gigagan,
-  author    = {Kang, Minguk and Zhu, Jun-Yan and Zhang, Richard and Park, Jaesik and Shechtman, Eli and Paris, Sylvain and Park, Taesung},
-  title     = {Scaling up GANs for Text-to-Image Synthesis},
+@inproceedings{min2024morevqa,
+  author    = {Min, Juhong and Buch, Shyamal and Nagrani, Arsha and Cho, Minsu and Schmid, Cordelia},
+  title     = {MoReVQA: Exploring Modular Reasoning Models for Video Question Answering},
   booktitle = {Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition (CVPR)},
-  year      = {2023},
+  year      = {2024},
 }
 ```
