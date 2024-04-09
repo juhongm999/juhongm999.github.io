@@ -159,6 +159,7 @@
 
 <section class="section">
   <div class="container is-max-desktop">
+    
     <!-- Abstract. -->
     <div class="columns is-centered has-text-centered">
       <div class="column is-four-fifths">
@@ -178,8 +179,50 @@
     <br><br>
     <!--/ Abstract. -->
     
+    <!-- Motivation. -->
+    <div class="columns is-centered has-text-centered">
+      <div class="column is-four-fifths">
+        <h2 class="title is-3">What's this project about?</h2>
+        <div class="content has-text-justified">
+          <p>
+          We make two contributions in this work:
+          </p>
+          
+          <p><b>First</b>, we introduce a new “simple program” baseline that <b>j</b>ust <b>c</b>aptions <b>e</b>very <b>f</b>rame (<b>JCEF</b>), and show that it (surprisingly) outperforms state-of-the-art visual programming methods for videoQA! (This means we have a lot of room to improve for visual programming and modular reasoning)</p>
+          
+
+        <!--h3 class="title is-4">JCEF: Just Caption Every Frame</h3-->
+        
+        <div class="content has-text-centered">
+            <img src="./static/images/morevqa/jcef.png" width="70%">
+        </div>
+        <div class="content has-text-justified">
+          <p>
+          <b>A simple, strong baseline – JCEF.</b> Our proposed baseline consists of a zero-shot prompted vision-language model (VLM) which is used to caption uniformly sampled frames from a video. We sample every frame unless explicitly stated. These captions are then stored in an external memory, which is passed to a zero-shot prompted LLM that is used to answer a question about the video. We show that this baseline outperforms existing visual programming methods by a large margin and investigate ways to more effectively improve upon it in a modular, multistage manner.
+          </p>
+        </div>
+          
+          <p><b>Second</b>,</p>
+
+          
+        <div class="content has-text-centered">
+            <img src="./static/images/morevqa/morevqa.png">
+        </div>
+        <div class="content has-text-justified">
+          <p>
+          <b>Modular Reasoning for Video Question-Answering (MoReVQA).</b> To address the limitations of single-stage planning LLMs, we propose a new multi-stage, modular method multi-stage that decomposes planning and execution into three key steps: (i) event parsing, (ii) grounding, and (iii) reasoning.
+          </p>
+        </div>
+
+          
+        </div>
+      </div>
+    </div>
+    <br><br>
+    <!--/ Motivation. -->
+    
     <!-- Latent space editing applications -->
-    <div class="columns is-centered">
+    <!--div class="columns is-centered">
       <div class="column is-full-width">
         <h2 class="title is-3 has-text-centered">Proposed Methods</h2>
         <br>
@@ -191,7 +234,7 @@
         </div>
         <div class="content has-text-justified">
           <p>
-          <b>Modular Reasoning for Video Question-Answering (MoReVQA).</b> To address the limitations of single-stage planning LLMs, we propose a new multi-stage, modular method Mmulti-stage that decomposes planning and execution into three key steps: (i) event parsing M1, (ii) grounding M2, and (iii) reasoning M3.
+          <b>Modular Reasoning for Video Question-Answering (MoReVQA).</b> To address the limitations of single-stage planning LLMs, we propose a new multi-stage, modular method multi-stage that decomposes planning and execution into three key steps: (i) event parsing, (ii) grounding, and (iii) reasoning.
           </p>
         </div>
         <br><br>
@@ -209,7 +252,7 @@
         </div>
 
       </div>
-    </div>
+    </div-->
 
   </div>
 </section>
